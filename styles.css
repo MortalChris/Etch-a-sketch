@@ -4,11 +4,12 @@
 }
 body{
     margin: auto;
+    background-color: #324C56;
     /* min-width: 50%;*/
 }
 
 #container{
-    margin: 8rem 0rem 0rem 0rem;
+    margin: 4rem 0rem 0rem 0rem;
     display: grid;
     display: flex;
 	flex-direction: column;
@@ -19,12 +20,32 @@ body{
     /*grid-template-columns: repeat(16, 1fr);
     grid-template-rows: repeat(16, 1fr);*/
 }
+
+
+/*Button*/
+#btn{
+    border: none;
+    border-radius: 1rem 1rem 0rem 0rem;
+    background-color: #F7766C;
+    padding: 1rem;
+    font-size: 2rem;
+    color: white;
+}
+#btn:hover{
+    background-color: #EE384C;
+}
+
+
 #etch{
     display: grid;
     grid-template-columns: repeat(16, 3rem);
-    grid-template-rows: repeat(16, 3rem);
-    border: 1rem solid black;
+    grid-auto-rows: 3rem;
+    border: 1rem solid #F7766C;
+    background-color: #D8CCB7;
 }
 .sketch{
-    border: 1px solid black;
+    border: 1px solid #F7766C;
+}
+.sketch:hover{
+    background-color: #EE384C;
 }
